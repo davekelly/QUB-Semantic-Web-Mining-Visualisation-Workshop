@@ -11,14 +11,14 @@ Create a Leaflet.js map of all ships listed in Dbpedia that have an image, name,
 
 Run:
 
-    - `npm install`
-    - `bower install`
+- `npm install`
+- `bower install`
 
 To preview:
 
-    - `grunt serve`
+- `grunt serve`
 
 To deploy:
 
-    - `grunt build`
-    - Production code is in the `/dist` directory
+- `grunt build`
+- Production code is in the `/dist` directory
