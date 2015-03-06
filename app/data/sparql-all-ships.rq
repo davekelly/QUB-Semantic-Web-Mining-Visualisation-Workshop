@@ -1,3 +1,7 @@
+#
+# Run against http://live.dbpedia.org/sparql
+#
+
 
 SELECT *
 { 
