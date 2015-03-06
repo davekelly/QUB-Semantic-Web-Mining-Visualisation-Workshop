@@ -1,0 +1,13 @@
+{
+  "name": "dah-workshop",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "modernizr": "~2.8.2",
+    "leaflet": "~0.7.3",
+    "leaflet-omnivore": "~0.3.2",
+    "underscore": "~1.8.2",
+    "seiyria-bootstrap-slider": "~4.5.1",
+    "d3": "~3.5.5"
+  }
+}

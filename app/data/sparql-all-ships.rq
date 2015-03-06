@@ -1,0 +1,10 @@
+
+SELECT *
+{ 
+    ?ship a dbpedia-owl:Ship .
+    ?ship rdfs:label ?name .
+    ?ship foaf:depiction ?image .
+    ?ship geo:lat ?lat .
+    ?ship geo:long ?lon .
+    ?ship dbpedia-owl:shipLaunch ?launchDate
+}
