@@ -20,7 +20,7 @@ var timeslider,
 function addMarkerToLayer(value)
 {
     var marker = L.marker([value.lat, value.lon]);
-        marker.bindPopup('<div style="text-align:center;"><h4>' + value.name + '</h4><a href="'+ value.url+'"><img style="width: 100px; height: 100px;" src="' + value.image + '" /></a>', {
+        marker.bindPopup('<div style="text-align:center;"><h4>' + value.name + '</h4><a href="'+ value.url+'"><img style="width: 100px; height: 100px;" src="' + value.image + '" /></a></div>', {
             showOnMouseOver: true
         });                
 
