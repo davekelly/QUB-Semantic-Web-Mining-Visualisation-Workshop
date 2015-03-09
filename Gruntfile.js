@@ -301,6 +301,12 @@ module.exports = function (grunt) {
           cwd: 'bower_components/bootstrap/dist',
           src: 'fonts/*',
           dest: '<%= config.dist %>'
+        },{
+          expand: true,
+          dot: true,
+          cwd: '<%= config.app %>/data',
+          src: '{,*/}*.*',
+          dest: '<%= config.dist %>/data'
         }]
       },
       styles: {
@@ -394,7 +400,7 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'copy:dist',
-    'modernizr',
+    // 'modernizr',
     'rev',
     'usemin',
     'htmlmin'

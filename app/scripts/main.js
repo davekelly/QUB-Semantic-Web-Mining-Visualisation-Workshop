@@ -65,7 +65,8 @@ function initSlider(rows)
 }
 
 
-d3.csv('/data/sparql.csv', function(d) {
+// d3.csv('/data/sparql.csv', function(d) {
+d3.csv('http://davekelly.github.io/QUB-Semantic-Web-Mining-Visualisation-Workshop/data/sparql.csv', function(d) {
 
     var dateParts = d.launchDate.split('-');
     var year = dateParts[0];
